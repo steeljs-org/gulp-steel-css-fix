@@ -1,0 +1,61 @@
+{
+  "name": "gulp-steel-css-fix",
+  "version": "0.0.1",
+  "description": "steel css fix",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steeljs-org/gulp-steel-css-postfix.git"
+  },
+  "author": {
+    "name": "Lonefy",
+    "mail": "lonefy@foxmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "steel","css"
+  ],
+  "dependencies": {
+    "through2": "^0.6.3",
+    "gulp-util": "^3.0.2",
+    "minimatch": "*",
+    "css-prefix": "*"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "homepage": "https://github.com/steeljs-org/gulp-steel-css-fix",
+  "bugs": {
+    "url": "https://github.com/steeljs-org/gulp-steel-css-fix/issues"
+  },
+  "_id": "gulp-steel-css-fix@0.2.4",
+  "_from": "gulp-steel-css-fix@*",
+  "_shasum": "1ac4ce3a37e53a98c7e2021068dbab48422649cc",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "lonefy",
+    "email": "lonefy@foxmail.com"
+  },
+  "dist": {
+    "shasum": "1ac4ce3a37e53a98c7e2021068dbab48422649cc",
+    "tarball": "http://registry.npmjs.org/gulp-steel-css-fix/-/gulp-steel-css-fix-0.2.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "finrila",
+      "email": "finrila@gmail.com"
+    },
+    {
+      "name": "lonefy",
+      "email": "lonefy@foxmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/gulp-steel-css-postfix/-/gulp-steel-css-postfix-0.2.4.tgz",
+  "readme": "ERROR: No README data found!"
+}
