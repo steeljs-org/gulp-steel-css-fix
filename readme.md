@@ -1,4 +1,4 @@
-#gulp-steel-css-postfix
+#gulp-steel-css-fix
 
 Use to fix css rules
 
