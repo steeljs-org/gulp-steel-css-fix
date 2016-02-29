@@ -7,11 +7,13 @@ Use to fix css rules
 use glob pattern to filter your file path;
 
 the filter could also be Array or String, like: 
+
 ```JavaScript
 {filter:["pages/*.*"]} 
 {filter:"lib/*.*"}
 ```
 In your steel-gulpfile, you can use in this way:
+
 ```JavaScript
 var gscf = require('gulp-steel-css-fix');
 
@@ -22,7 +24,8 @@ gscf({
 ```
 
 ###Example
-    If your file path is "src/css/pages/pageA.css", the filter(sub-path) pattern should be "pages/*.*", like:
+If your file path is "src/css/pages/pageA.css", the filter(sub-path) pattern should be "pages/*.*", like:
+
 ```JavaScript
 function testCss(){
  	gulp.src(['src/css/**/*.*'])
@@ -33,4 +36,4 @@ function testCss(){
 	.pipe(gulp.dest(front_base + '/css/'));
 }
 ```
-    in the function testCss, the whole file path is "src/css/pages/pointsmall/*.*"
+in the function testCss, the whole file path is "src/css/pages/pointsmall/*.*"
