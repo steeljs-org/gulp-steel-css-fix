@@ -1,11 +1,11 @@
 {
   "name": "gulp-steel-css-fix",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "steel css fix",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steeljs-org/gulp-steel-css-postfix.git"
+    "url": "git+https://github.com/steeljs-org/gulp-steel-css-fix.git"
   },
   "author": {
     "name": "Lonefy",

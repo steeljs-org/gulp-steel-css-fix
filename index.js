@@ -31,9 +31,6 @@ module.exports = function(options) {
 
         p = p.replace(reg, "");
 
-        console.log(p);
-        console.log(options.filter)
-        console.log(isHas(options.filter, p));
         if (isHas(options.filter, p)) {
 
             var endLine = p.replace(/\.\w+$/g, ""),
